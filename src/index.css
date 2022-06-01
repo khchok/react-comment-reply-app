@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+body {
+  margin: auto;
+  width: 100%;
+  max-width: 1080px;
+  background-color: #f6f6ef;
+}
+
+.app-bar{
+  background-color: coral;
+  padding: 5px;
+}
+
+small {
+  color: rgb(145, 145, 145);
+}
+
+li {
+  list-style-image: url(/src/assets/sharp-triangle.svg);
+}
+
+p {
+  margin: 0;
+}
+
+.reply {
+  color:black;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.cursor-pointer * {
+  cursor: pointer;
+}
+
+.cursor-pointer:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.home-item {
+  padding-left: 8px;
+  cursor: pointer;
+}
+
+.home-item:hover {
+  padding-left: 8px;
+  cursor: pointer;
+  background-color: rgb(199, 199, 195);
+}
+
+.comment {
+  font-size: 14px;
+}
